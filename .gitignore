@@ -1,0 +1,108 @@
+# -----------------------------
+# OS / Editor / Miscellaneous
+# -----------------------------
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.pyc
+*.class
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# -----------------------------
+# IDE / Editor settings
+# -----------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+#.vscode/   # uncomment if you don't want to track VS Code settings
+
+# -----------------------------
+# Flutter / Dart / Pub
+# -----------------------------
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/build/
+.metadata
+.generated/
+coverage/
+*.dart_tool/
+.flutter-plugins-dependencies
+
+# -----------------------------
+# Android
+# -----------------------------
+android/.gradle/
+android/local.properties
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Firebase configuration (do NOT commit)
+android/app/google-services.json
+
+# -----------------------------
+# iOS / macOS
+# -----------------------------
+ios/Pods/
+ios/build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/DerivedData/
+ios/Runner.xcworkspace/
+ios/Podfile.lock
+ios/Runner/GoogleService-Info.plist
+
+macos/Pods/
+macos/build/
+macos/Podfile.lock
+macos/Runner/GoogleService-Info.plist
+
+# -----------------------------
+# Web
+# -----------------------------
+web/.dart_tool/
+web/.flutter-plugins-dependencies
+
+# -----------------------------
+# Linux / Windows
+# -----------------------------
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+windows/Debug/
+windows/Release/
+
+# -----------------------------
+# Firebase / Secrets
+# -----------------------------
+firebase.json
+lib/firebase_options.dart
+
+# -----------------------------
+# Obfuscation / Symbolication
+# -----------------------------
+app.*.map.json
+app.*.symbols
+
+# -----------------------------
+# Archives / Temporary
+# -----------------------------
+*.zip
+*.tar
+*.gz
+*.lock
