@@ -10,6 +10,9 @@ A cross-platform Flutter application for teachers to manage weekly practice ques
 - Firebase integration for authentication and Firestore database
 - Cross-platform support
 
+## Video Demo
+[link](https://youtu.be/1gwOghU5s_I)
+
 ## Prerequisites
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) (version 3.5.0 or higher recommended)
